@@ -1,14 +1,6 @@
-/*
-   YARA Rule Set
-   Author: yarGen Rule Generator
-   Date: 2021-01-25
-   Identifier: 21_Jan
-   Reference: https://github.com/Neo23x0/yarGen
-*/
 
-/* Rule Set ----------------------------------------------------------------- */
 
-rule sig_2dc0e02fcc1a56c81903905869a396f328813e63eba46f941ff3379430e12d12 {
+rule {
    meta:
       description = "21_Jan - file 2dc0e02fcc1a56c81903905869a396f328813e63eba46f941ff3379430e12d12.exe"
       author = "Ian Harte - @is_henderson"
