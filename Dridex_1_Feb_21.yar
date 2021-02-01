@@ -11,7 +11,7 @@ rule Jbox_Dridex_1_Feb_2021 {
    	  
    	  $drp = "loaddll32.exe" fullword wide
       
-      // IP will change, current for 4b2a101f9e7e0119409b6faae798c1e9fada080f055509f477c598365e1f6618 only
+      // C2(Command & Control) will change, current for 4b2a101f9e7e0119409b6faae798c1e9fada080f055509f477c598365e1f6618 only
       $ip1 = "77.220.64.131:443" ascii
       $ip2 = "5.196.204.251:5037" ascii
       $ip3 = "192.99.41.136:981", ascii
