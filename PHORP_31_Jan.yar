@@ -19,7 +19,7 @@ rule {
       $s6 = "/c start __ & __\\DriveMgr.exe & exit" fullword wide
       $s7 = "%s\\autorun.inf" fullword wide
       $s8 = "%ls:Zone.Identifier" fullword wide
-      $s9 = "%ls:*:Enabled:%ls"
+      $s9 = "%ls:*:Enabled:%ls" fullword wide
       $s10 = "12sNWkfRAweJAAc3kw2cRAxcivya6jB6euAp7VVYQgq9Cbj1" fullword ascii wide// Possible BTC Cash address?
       
       $op0 = { 83 c4 08 85 c0 74 07 c7 45 f8 34 67 40 00 68 60 }
