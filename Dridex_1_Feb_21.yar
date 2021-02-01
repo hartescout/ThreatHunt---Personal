@@ -24,6 +24,10 @@ rule Jbox_Dridex_1_Feb_2021 {
       $s5 = " &quot;get-eventlog -list&quot;." fullword ascii
       $s6 = " &quot;get-psdrive | format name, description&quot;. " fullword ascii
       
+      $op0 = { e8 83 f0 ff ff 59 59 8b 75 08 8d 34 f5 70 f0 47 }
+      $op1 = { 3b c3 74 17 39 18 75 13 50 e8 8e ed ff ff ff b6 }
+      $op2 = { 3b c3 74 17 39 18 75 13 50 e8 6d ed ff ff ff b6 }
+      
 
    condition:
       uint16(0) == 0x5a4d and filesize < 2000KB and 3 of them or 2 of ($ip*) or ($drp and 2 of them) 
