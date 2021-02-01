@@ -2,7 +2,7 @@ rule Jbox_Dridex_1_Feb_2021 {
    meta:
       
       description = "Dridex - Updated"
-      author = "Ian Harte - Binary Defense Systems"
+      author = "Ian Harte - @is_henderson"
       reference = "https://www.joesandbox.com/analysis/346906/0/html"
       date = "2021-02-01"
       hash1 = "4b2a101f9e7e0119409b6faae798c1e9fada080f055509f477c598365e1f6618"
