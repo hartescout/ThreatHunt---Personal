@@ -17,12 +17,12 @@ rule Jbox_Dridex_1_Feb_2021 {
       $ip3 = "192.99.41.136:981", ascii
       $ip4 = "24.229.3.146:4664" ascii
       
-      $s2 = "c:\\CoolFamily\\NounWhat\\MostKill\\ReadyCity\\lost.pdb" fullword ascii
-      $s3 = "lost.dll" fullword ascii
-      $s5 = "<command:command xmlns:maml=\"http://schemas.microsoft.com/maml/2004/10\" xmlns:command=\"http://schemas.microsoft.com/maml/dev/" ascii
-      $s6 = "<!-- v 1.1.0.9 -->" fullword ascii
-      $s7 = " &quot;get-eventlog -list&quot;." fullword ascii
-      $s17 = " &quot;get-psdrive | format name, description&quot;. " fullword ascii
+      $s1 = "c:\\CoolFamily\\NounWhat\\MostKill\\ReadyCity\\lost.pdb" fullword ascii
+      $s2 = "lost.dll" fullword ascii
+      $s3 = "<command:command xmlns:maml=\"http://schemas.microsoft.com/maml/2004/10\" xmlns:command=\"http://schemas.microsoft.com/maml/dev/" ascii
+      $s4 = "<!-- v 1.1.0.9 -->" fullword ascii
+      $s5 = " &quot;get-eventlog -list&quot;." fullword ascii
+      $s6 = " &quot;get-psdrive | format name, description&quot;. " fullword ascii
       
 
    condition:
