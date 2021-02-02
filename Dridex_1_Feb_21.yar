@@ -1,6 +1,5 @@
 rule Jbox_Dridex_1_Feb_2021 
-{
-   
+{   
    meta:      
       description = "Dridex - Updated"
       author = "Ian Harte - Binary Defense Systems"
