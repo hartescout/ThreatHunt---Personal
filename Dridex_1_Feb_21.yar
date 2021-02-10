@@ -7,9 +7,8 @@ rule Jbox_Dridex_1_Feb_2021
       date = "2021-02-01"
       hash1 = "4b2a101f9e7e0119409b6faae798c1e9fada080f055509f477c598365e1f6618"
    
-   strings:   	  
-   	
-      
+   strings: 	  
+   	      
       // IP will change, current for 4b2a101f9e7e0119409b6faae798c1e9fada080f055509f477c598365e1f6618 only
       $ip1 = "77.220.64.131" wide // :443
       $ip2 = "5.196.204.251" wide // :5037
