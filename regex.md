@@ -42,3 +42,5 @@ Alphabetic input
 
 Other regular expressions - Match no input ^$ - Match blank input ^\s\t*$ - Match New line [\r\n]|$ - Match white Space ^\s+$ - Match Url = ^http\:\/\/[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$
 ```
+extract sha256
+`^[A-Fa-f0-9]{64}%`
