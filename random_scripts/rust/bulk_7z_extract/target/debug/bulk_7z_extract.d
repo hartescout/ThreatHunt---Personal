@@ -1,0 +1,1 @@
+/Users/iharte/Projects/Research/HUNT/ThreatHunt---Personal/random_scripts/rust/bulk_7z_extract/target/debug/bulk_7z_extract: /Users/iharte/Projects/Research/HUNT/ThreatHunt---Personal/random_scripts/rust/bulk_7z_extract/src/main.rs
