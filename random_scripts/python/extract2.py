@@ -3,6 +3,11 @@ import py7zr, os, lzma
 
 pwd = input("Enter the password. If no password enter 'n/a': ")
 directory = input("\nEnter full path to extract files to: ")
+def extraction():
+    for file in os.listdir():
+                    with py7zr.SevenZipFile(file, 'r', password=pwd) as archive:
+                        archive.extractall(path=directory)
+
 for file in os.listdir():
     if file.endswith(".7z"):
         if py7zr.SevenZipFile.needs_password():
@@ -17,9 +22,7 @@ for file in os.listdir():
                     print("\n\n\nCheck filepath and try again.")
                     quit()
                 pass
-        for file in os.listdir():
-                    with py7zr.SevenZipFile(file, 'r', password=pwd) as archive:
-                        archive.extractall(path=directory)
+        extraction()
     elif  py7zr.SevenZipFile.needs_password():
         with py7zr.SevenZipFile(file, 'r') as archive:
                 try:
